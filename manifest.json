@@ -1,0 +1,18 @@
+{ 
+    "name": "Costco Autobuy", 
+    "manifest_version": 2,
+    "version": "1.0", 
+    "description": "Costco Autobuy Extension", 
+    "browser_action": { 
+        "default_icon": "icon.png" 
+    },
+    "permissions": [
+        "tabs", "http://*/*","https://*/*"
+    ],
+    "content_scripts": [ 
+        { 
+            "matches": ["https://www.costco.ca/*"], 
+            "js": ["costco.js"] 
+        } 
+    ] 
+}
