@@ -9,3 +9,9 @@ Steps to install:
 5. Click "Load unpacked extension..."
 6. Select the location of the scripts
 7. Make sure the extension is shown on top-right of the browser
+
+How to use:
+1. Open the costco webpage of the item you want to buy
+   e.g. https://www.costco.ca/Elizabeth-Arden-Ceramide-Advanced-Time-Complex-Capsules.product.100296958.html
+2. Rememeber to keep the item webpage as the front page. You can open a new chrome instance to do your other stuff.
+3. That's it! When the item gets in stock, a pop-up message will show and say "We've got something in stock!"
