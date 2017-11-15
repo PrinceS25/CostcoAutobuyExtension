@@ -13,5 +13,5 @@ Steps to install:
 How to use:
 1. Open the costco webpage of the item you want to buy
    e.g. https://www.costco.ca/Elizabeth-Arden-Ceramide-Advanced-Time-Complex-Capsules.product.100296958.html
-2. Rememeber to keep the item webpage as the front page. You can open a new chrome instance to do your other stuff.
+2. Rememeber to keep the item webpage open.
 3. That's it! When the item gets in stock, a pop-up message will show and say "We've got something in stock!"
