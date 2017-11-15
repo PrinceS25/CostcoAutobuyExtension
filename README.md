@@ -1,4 +1,4 @@
-# Costco Autobuy Extension For Chrome
+# Costco Autobuy Chrome Extension 
 This is a small chrome extension that can help you buy something immediately it gets in stock.
 
 Steps to install:
