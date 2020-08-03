@@ -1,8 +1,12 @@
 { 
-    "name": "Costco Autobuy", 
+    "name": "Instacart Costco Availability", 
     "manifest_version": 2,
     "version": "1.0", 
-    "description": "Costco Autobuy Extension", 
+    "description": "Instacart Costco Delivery Availability Extension",
+	"background": {
+		"scripts": ["redirect.js"],
+		"persistent": false
+	},
     "browser_action": { 
         "default_icon": "icon.png" 
     },
@@ -11,8 +15,8 @@
     ],
     "content_scripts": [ 
         { 
-            "matches": ["https://www.costco.ca/*"], 
-            "js": ["costco.js"] 
+            "matches": ["https://www.instacart.com/store/costco/info?tab=delivery"], 
+            "js": ["instacartCostcoAvailability.js"] 
         } 
     ] 
 }
